@@ -36,6 +36,13 @@ struct test_driver driver1
 	fun_pri
 };
 
+struct test_driver driver2
+=
+{
+	11,
+	&test_data,
+	fun_pri
+};
 int main()
 {
 	printf("test\n");
